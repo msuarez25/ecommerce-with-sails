@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>New Sails App</title>
+    <title>Mauricio's Ecommerce</title>
 
     <!-- Viewport mobile tag for sensible mobile support -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
-    <%/* If you want to discourage search engines from indexing this site, uncomment the following line: */%>
-    <%/* <meta name="robots" content="noindex"> */%>
-
+    <%/* If you want to discourage search engines from indexing this site,
+    uncomment the following line: */%> <%/*
+    <meta name="robots" content="noindex" />
+    */%>
 
     <!--
         Stylesheets and Preprocessors
@@ -32,14 +36,14 @@
     -->
 
     <!--STYLES-->
+    <link rel="stylesheet" href="/styles/bootstrap.min.css">
     <link rel="stylesheet" href="/styles/importer.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <!--STYLES END-->
   </head>
 
   <body>
     <%- body %>
-
-
 
     <!--
         Client-side Templates
@@ -65,7 +69,6 @@
     <!--TEMPLATES-->
     <!--TEMPLATES END-->
 
-
     <!--
         Server-side View Locals
         ========================
@@ -80,7 +83,6 @@
         https://sailsjs.com/docs/concepts/views/locals#?escaping-untrusted-data-using-exposelocalstobrowser
 
     -->
-
 
     <!--
 
@@ -107,6 +109,7 @@
 
     <!--SCRIPTS-->
     <script src="/dependencies/sails.io.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
     <!--SCRIPTS END-->
   </body>
 </html>
